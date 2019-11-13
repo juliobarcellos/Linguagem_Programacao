@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="Aula_02052019"/>
+	<classpathentry kind="src" path="Aula_07032019"/>
+	<classpathentry kind="src" path="Aula_14032019"/>
+	<classpathentry kind="src" path="Aula_18042019"/>
+	<classpathentry kind="src" path="Aula_21032019"/>
+	<classpathentry kind="src" path="Aula_25042019"/>
+	<classpathentry kind="src" path="Aula_28032019"/>
+	<classpathentry kind="src" path="Aula_14022019"/>
+	<classpathentry kind="src" path="Aula_21022019"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
