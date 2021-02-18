@@ -1,36 +1,33 @@
-
 /*
 Programador : Julio Barcellos
-Data                : 07/03/2019
-Objetivo          : Calcula o Sal�rio a Receber a partir do Sal�rio Bruto e Desconto
-                           Exemplo de Procedures
-
+Data        : 07/03/2019
+Objetivo    : Exemplo de Procedures - Calcula o Salário a Receber a partir do Salário Bruto e Desconto
 */
 
 import javax.swing.JOptionPane;
 
 public class ExemploProcedure {
-	static Double SalarioBruto, SalarioLiquido;
+	static Double salarioBruto, salarioLiquido;
 
 	public static void main(String args[]) {
-		SalarioBruto = Double.parseDouble(JOptionPane.showInputDialog("Digite o SAL�RIO BRUTO"));
+		salarioBruto = Double.parseDouble(JOptionPane.showInputDialog("Digite o Salário Bruto"));
 		ProcedureSalario();
-		JOptionPane.showMessageDialog(null, "\n Salario Liquido = " + SalarioLiquido);
+		JOptionPane.showMessageDialog(null, "\n Salário Líquido = " + salarioLiquido);
 	}
 
 	static void ProcedureSalario() {
-		Double Desconto;
-		if (SalarioBruto < 500) {
-			Desconto = 0.0;
-		} else if (SalarioBruto >= 500 && SalarioBruto < 800) {
-			Desconto = 0.05;
-		} else if (SalarioBruto >= 800 && SalarioBruto < 1200) {
-			Desconto = 0.10;
+		Double desconto;
+		if (salarioBruto < 500) {
+			desconto = 0.0;
+		} else if (salarioBruto >= 500 && salarioBruto < 800) {
+			desconto = 0.05;
+		} else if (salarioBruto >= 800 && salarioBruto < 1200) {
+			desconto = 0.10;
 		} else {
-			Desconto = 0.15;
+			desconto = 0.15;
 		}
 
-		SalarioLiquido = (SalarioBruto - (SalarioBruto * Desconto));
+		salarioLiquido = (salarioBruto - (salarioBruto * desconto));
 	}
 
 }

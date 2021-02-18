@@ -1,20 +1,17 @@
 /*
 ********************************************************************************
-Objetivo    :Exemplo de while {...} Mostra os 100 primeiros números positivos 
-Programador :Julio Barcellos
-Data criação: /02/2019
+Objetivo    : Exemplo de while {...} - Mostre os 100 primeiros nÃºmeros positivos 
+Programador : Julio Barcellos
+Data criaÃ§Ã£o: 21/02/2019
 ********************************************************************************
 */
 
 public class Enquanto {
-	public static void main (String args [])
-	{
+	public static void main(String args[]) {
 		int cta = 0;
-		while (cta <=100)
-		{
-			System.out.println("o numero é "+cta);
+		while (cta <= 100) {
+			System.out.println("o numero Ã© " + cta);
 			cta++;
 		}
 	}
 }
-

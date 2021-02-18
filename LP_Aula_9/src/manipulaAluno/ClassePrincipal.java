@@ -5,14 +5,15 @@ import java.io.IOException;
 import javax.swing.JOptionPane;
 
 public class ClassePrincipal {
-public static void main(String[] args) throws IOException {
-		
-		int Opc=0;
+	public static void main(String[] args) throws IOException {
+
+		int Opc = 0;
 		Aluno[] aluno = new Aluno[3];
 		ClasseGravaLer CGL = new ClasseGravaLer();
 		do {
-			Opc=Integer.parseInt(JOptionPane.showInputDialog("EstatÌsticas de Acidentes em 2019\n1 - Grava Aluno\n2 - Mostra Aluno\n9 - Finaliza"));
-			
+			Opc = Integer.parseInt(JOptionPane.showInputDialog(
+					"Estat√≠sticas de Acidentes em 2019\n1 - Grava Aluno\n2 - Mostra Aluno\n9 - Finaliza"));
+
 			switch (Opc) {
 			case 1:
 				aluno = CGL.GravaAluno(aluno);
@@ -24,8 +25,8 @@ public static void main(String[] args) throws IOException {
 				JOptionPane.showMessageDialog(null, "Fim");
 				break;
 			default:
-				JOptionPane.showMessageDialog(null, "OpÁ„o Inv·lida!");
+				JOptionPane.showMessageDialog(null, "Op√ß√£o Inv√°lida!");
 			}
-		} while (Opc!=9);
+		} while (Opc != 9);
 	}
 }

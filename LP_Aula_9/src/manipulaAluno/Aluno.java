@@ -1,4 +1,5 @@
 package manipulaAluno;
+
 class Aluno {
 	String pnome;
 	String unome;

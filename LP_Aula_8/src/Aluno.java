@@ -1,14 +1,14 @@
-class Aluno2 {
+class Aluno {
 	String pnome;
 	String unome;
 	int pontos;
 
 	// construtor
-	public Aluno2() {
+	public Aluno() {
 		this("", "", 0);
 	}
 
-	public Aluno2(String pnomealuno, String unomealuno, int pontosaluno) {
+	public Aluno(String pnomealuno, String unomealuno, int pontosaluno) {
 		pnome = pnomealuno;
 		unome = unomealuno;
 		pontos = pontosaluno;
